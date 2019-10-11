@@ -1,0 +1,18 @@
+<div class="bordered centered">
+  <button
+    pButton
+    class="margin-content horiz-stretched"
+    label="Set Material style"
+    icon="pi pi-refresh"
+    iconPos="right"
+    (click)="onClick()"
+  ></button>
+  <span class="ui-float-label margin-content horiz-stretched">
+    <input id="username" class="horiz-stretched" type="text" size="30" pInputText [(ngModel)]="username">
+    <label for="username">Username</label>
+  </span>
+  <span class="ui-float-label margin-content horiz-stretched">
+    <input id="password" class="horiz-stretched" type="password" pPassword [(ngModel)]="userPassword"/>
+    <label for="password">Password</label>
+  </span>
+</div>

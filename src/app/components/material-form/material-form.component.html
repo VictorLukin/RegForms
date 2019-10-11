@@ -1,0 +1,27 @@
+<div class="bordered centered">
+  <button
+    mat-stroked-button
+    class="margin-content horiz-stretched"
+    color="primary"
+    (click)="onClick()"
+  >
+    Set Prime Ng style
+  </button>
+  <label class="margin-content horiz-stretched" for="username">Username</label>
+  <input
+    matInput
+    id="username"
+    class="margin-content horiz-stretched"
+    placeholder="Type username here"
+    [(ngModel)]="username"
+  >
+  <label class="margin-content horiz-stretched" for="password">Password</label>
+  <input
+    matInput
+    id="password"
+    class="margin-content horiz-stretched"
+    type="password"
+    placeholder="Type password here"
+    [(ngModel)]="userPassword"
+  >
+</div>

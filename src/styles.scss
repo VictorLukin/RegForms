@@ -1,0 +1,19 @@
+.margin-content {
+  margin: 0.5rem;
+}
+
+.bordered {
+  border-style: solid;
+  border-width: thin;
+}
+
+.centered {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.horiz-stretched {
+  width: 100%;
+}
